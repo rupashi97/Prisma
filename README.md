@@ -26,6 +26,8 @@ Use `evaluate.py` to evaluate a style transfer network. Run `python evaluate.py`
       --out-path dir/for/results/
 
 
+The file `livefeed.py` acts as a GUI for this project. It captures a photo from the webcam, displays available styles to choose from, and upon selecting the style, it displays the edited picture.
+
 ### Requirements
 - TensorFlow 0.11.0
 - Python 2.7.9, Pillow 3.4.2, scipy 0.18.1, numpy 1.11.2
